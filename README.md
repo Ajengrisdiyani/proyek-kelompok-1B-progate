@@ -1,2 +1,2 @@
 # proyek-kelompok-2-progate
-tugas kelompok 2
+membuat halaman web responsive mengenai perusahaan jasa desain
