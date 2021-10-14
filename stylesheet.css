@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(foto/8.JPEG);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  color:black;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  opacity: :0.7;
+}
+
+.top-wrapper p {
+  color:black;
+  margin-bottom: 3px;
+  opacity: 0.7;
+  font-size: 24px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 40px 0;
+}
+
+
+.signup {
+  background-color: #8a2be2;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
