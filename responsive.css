@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+@media all and (max-width: 1000px) {
+  
+}
+
+@media all and (max-width: 670px) {
+    .header-right {
+      display: none;
+      font-size: 25px;
+    }
+    
+    .menu-icon {
+      display: block;
+    }
+  }
+=======
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   .top-wrapper h1 {
@@ -24,8 +40,8 @@
   }
   
   .top-wrapper p {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 20px;
-    text-align: center;
   }
 }
+>>>>>>> 56b55d9fa8d36859357376c494ca680710bf6272
