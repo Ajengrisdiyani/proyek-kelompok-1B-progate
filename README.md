@@ -1,2 +1,2 @@
 # proyek-kelompok-2-progate
-tugas kelompok 2
+Membuat halaman website jasa desain
