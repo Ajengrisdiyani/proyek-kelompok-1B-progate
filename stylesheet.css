@@ -188,8 +188,9 @@ a {
 
 .btn:hover {
   opacity: 1;
+  background-color: #555;
+  color: white;
 }
-
 
 
 @keyframes example {
