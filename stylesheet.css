@@ -109,7 +109,10 @@ a {
 
 
 .signup {
-  background-color: #8a2be2;
+	background-color: #8a2be2;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
 }
 
 
@@ -188,11 +191,7 @@ a {
 }
 
 .portofolio{
-	width: 100px;
-	height: 100px;
-	background-color: red;
-	animation-name: example;
-	animation-duration: 4s;
+
 }
 
 @keyframes example {
