@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
   </head>
-  <body>
     <header>
         <div class="container">
             <div class="header-left">
@@ -26,5 +25,22 @@
             </div>
         </div>
     </header>
+  
+  <!-- Ini bagian coding Al, saya membuat main -->
+
+  <body>
+     <div class="top-wrapper">
+      <div class="container">
+        <h1>JADIKAN FOTO ANDA MENARIK</h1>
+        <h1> HANYA DI PROGATE 1B CREATIVE DESIGN</h1>
+        <p>Progate 1B Creative Design Merupakan Kelompok Project Pembuatan Website Jasa Desain</p>
+        <p>Website Ini Merupakan Hasil Kerja Kelompok Untuk Menyelesaikan Studi Independen Di PT.Progate Indonesia</p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">PESAN SEKARANG</a>
+        </div>
+      </div>
+    </div>
   </body>
+  
+  
 </html>
