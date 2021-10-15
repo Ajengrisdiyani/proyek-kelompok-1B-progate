@@ -15,13 +15,6 @@
   }
 =======
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
- 
-
-/* Untuk Smartphone */
 @media all and (max-width: 670px) {
   
   .btn {
@@ -46,12 +39,6 @@
   }
 }
 >>>>>>> 56b55d9fa8d36859357376c494ca680710bf6272
-
-
-
-
-
-
 
 
 
