@@ -64,6 +64,8 @@ a {
 
 .signup {
   background-color: #FF2483;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
 .facebook {
@@ -170,6 +172,7 @@ header {
   margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
+  transform: rotate(20deg);
 }
 
 .heading h3 {
@@ -217,4 +220,16 @@ span.menu-icon {
   font-size: 25px;
   padding: 21px 0;
   display: none;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.facebook{
+  transition: width 2s;
+}
+.facebook:hover {
+  width: 200px;
 }
