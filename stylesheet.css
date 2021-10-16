@@ -1,8 +1,10 @@
-{
-    box-sizing: border-box;
-  }
+/* Ketik code Anda dibaris terakhir */
 
-  html, body,
+* {
+  box-sizing: border-box;
+}
+
+html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
@@ -10,120 +12,75 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-    font-family: "Goudy Bookletter 1911";
-  }
-
-  a {
-    text-decoration: none;
-  }
-  
-  .clear {
-    clear: left;
-  }
-  
-  .container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  
-
-  header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(185, 0, 0, 0.9);
-    position: fixed;
-    top: 0;
-    z-index: 10;
-  }
-  
-  .logo {
-    width: 140px;
-    height: 50px;
-    padding: 5px;
-    margin: 5px;
-  }
-  
-  .header-left {
-    float: left;
-  }
-  
-  .header-right {
-    float: right;
-    margin-right: -25px;
-  }
-  
-  .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float:left;
-    transition: all 0.5s;
-  }
-  
-  .header-right a:hover {
-    background-color: rgba(114, 0, 0, 0.3);
-  }
-
-* {
-  box-sizing: border-box;
-}
-
-
-
-<<<<mainn>>
-
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
+  font-family: Lexend;
+    src: url('../fonts/Lexend_Deca/LexendDeca-Regular.ttf');
 }
 
 a {
   text-decoration: none;
 }
 
+.clear {
+  clear: left;
+}
 
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+/*Codingan Harmain*/
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(bg.JPG);
+  background-image: url(CSS/bg.jpg);
   background-size: cover;
   color: white;
   text-align: center;
 }
 
 .top-wrapper h1 {
-  color:white;
+  opacity: 1.7;
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
-  opacity: 0.5;
 }
 
 .top-wrapper p {
-  color:black;
-  margin-bottom: 3px;
   opacity: 0.7;
-  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 3px;
 }
 
 .btn-wrapper {
   text-align: center;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
+.btn-wrapper p {
+  margin: 10px 0;
+}
 
 .signup {
-  background-color: #40d0e0;
+  background-color: #FF2483;
 }
 
+.facebook {
+  background-color: #FF2483;
+  margin-right: 5px;
+}
+
+.twitter {
+  background-color: #0FA88A;
+}
 
 .btn {
-  padding: 20px 40px;
+  padding: 12px 24px;
   color: white;
   display: inline-block;
   opacity: 0.8;
-  border-radius: 50px;
+  border-radius: 4px;
   text-align: center;
 }
 
@@ -131,7 +88,133 @@ a {
   opacity: 1;
 }
 
-@keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 170px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*Codingan Harmain*/
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #E6E6E6;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #FFFFFF;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+/*Codingan Harmain*/
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  background-color: #0FA88A;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #FF2483;
+  cursor: pointer;
+  box-shadow: 0 7px #25DEB9;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* Ketik code Anda dibawah */
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
